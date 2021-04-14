@@ -1,0 +1,75 @@
+body {
+    background: #393E46;
+}
+
+a {
+    text-decoration: none;
+}
+
+#sidebar {
+    width: 375px;
+    height: 812px;
+    
+    /* just for demonstration */
+    border: dotted 10px beige;
+}
+.brand-text h1{
+    font-family: Helvetica Neue;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;   
+    margin-bottom: 3px; 
+    width: 214px;
+}
+.brand-text p{
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #C3CEE2;
+    width: 214px;
+}
+
+.link-text {
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 50px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.start-btn {
+    width: 170px;
+    height: 45px;
+    display: flex;
+}
+.start-btn > button {
+    margin: auto;
+    width: 170px;
+    background-color: #23C4B3;
+    color: #ffffff;
+    text-align: center;
+    font-family: Helvetica Neue;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: -0.5px;
+}
+
+.lang-btn {
+    width: 308px;
+    height: 45px;
+    display: flex;
+}
+.lang-btn > button {
+    margin: auto;
+    width: 308px;
+    color: #ffffff;
+    text-align: center;
+    font-family: Helvetica Neue;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: -0.5px;
+}
